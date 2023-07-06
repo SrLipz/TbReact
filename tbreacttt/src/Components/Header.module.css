@@ -1,0 +1,41 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #375d81;
+  font-size: 1.7rem;
+}
+
+.imgHeader {
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.item {
+  margin-right: 1em;
+}
+
+.item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.item a:hover {
+  color: #abc8e2;
+}
+
+@media (max-width: 690px) {
+  .imgHeader {
+    display: none;
+  }
+  .navbar {
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+}

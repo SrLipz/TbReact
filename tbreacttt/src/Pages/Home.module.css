@@ -1,0 +1,53 @@
+.homeContainer {
+  flex-grow: 1;
+  min-height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+}
+
+.leftBox,
+.rightBox {
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.titleHome {
+  font-size: 4rem;
+}
+
+.textContainer {
+  padding: 2em;
+}
+
+.textContainer > p {
+  font-size: 2em;
+  line-height: 1.785;
+}
+
+.imgText {
+  width: 100%;
+  padding: 2rem;
+  align-self: center;
+}
+
+@media (max-width: 1500px) {
+  .homeContainer {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .imgText {
+    display: none;
+  }
+  .titleHome {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .textContainer > p {
+    font-size: 1.4rem;
+  }
+  .leftBox {
+    padding: 0;
+  }
+}

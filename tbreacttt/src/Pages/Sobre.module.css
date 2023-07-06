@@ -1,0 +1,22 @@
+.sobre {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.aboutItem {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.aboutItem h1 {
+  font-size: 3rem;
+}
+
+.aboutItem h3 {
+  font-size: 2rem;
+}
+.aboutItem p {
+  font-size: 1.5rem;
+}

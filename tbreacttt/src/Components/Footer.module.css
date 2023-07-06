@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #375d81;
+  align-content: center;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.boxContact {
+  margin: 0 auto;
+}
+
+.imgFooter {
+  width: 2rem;
+  height: 2rem;
+}
+
+.boxFooter {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.footer > span {
+  width: 100%;
+  padding: 1rem;
+  background-color: #44698b;
+  color: #000000;
+}
